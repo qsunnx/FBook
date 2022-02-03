@@ -1,0 +1,456 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7A1CB98125CC86AA00C796A2 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7A1CB98025CC86AA00C796A2 /* GoogleService-Info.plist */; };
+		7A4CAC5925CB2C8700437CFC /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A4CAC5825CB2C8700437CFC /* LoginViewController.swift */; };
+		7AD526F725AF7EBF005491B2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AD526F625AF7EBF005491B2 /* AppDelegate.swift */; };
+		7AD526F925AF7EBF005491B2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AD526F825AF7EBF005491B2 /* SceneDelegate.swift */; };
+		7AD526FB25AF7EBF005491B2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AD526FA25AF7EBF005491B2 /* ViewController.swift */; };
+		7AD526FE25AF7EBF005491B2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7AD526FC25AF7EBF005491B2 /* Main.storyboard */; };
+		7AD5270025AF7EC2005491B2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7AD526FF25AF7EC2005491B2 /* Assets.xcassets */; };
+		7AD5270325AF7EC2005491B2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7AD5270125AF7EC2005491B2 /* LaunchScreen.storyboard */; };
+		7AD5272225AF7F39005491B2 /* CalendarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AD5272125AF7F39005491B2 /* CalendarViewController.swift */; };
+		7AD5272525AF7F4F005491B2 /* DateCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AD5272425AF7F4F005491B2 /* DateCollectionViewCell.swift */; };
+		993FC73EEA3CDED1CEA1F93D /* Pods_FBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3AA97450B0EA8781C547FB7 /* Pods_FBook.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2C41D80B0576EE3329F43B64 /* Pods-FBook.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FBook.debug.xcconfig"; path = "Target Support Files/Pods-FBook/Pods-FBook.debug.xcconfig"; sourceTree = "<group>"; };
+		7A1CB98025CC86AA00C796A2 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		7A3805E925B5C36000F48A8F /* FBook.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = FBook.entitlements; sourceTree = "<group>"; };
+		7A4CAC5825CB2C8700437CFC /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		7AD526F325AF7EBF005491B2 /* FBook.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FBook.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7AD526F625AF7EBF005491B2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7AD526F825AF7EBF005491B2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		7AD526FA25AF7EBF005491B2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		7AD526FD25AF7EBF005491B2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7AD526FF25AF7EC2005491B2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7AD5270225AF7EC2005491B2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7AD5270425AF7EC2005491B2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7AD5272125AF7F39005491B2 /* CalendarViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalendarViewController.swift; sourceTree = "<group>"; };
+		7AD5272425AF7F4F005491B2 /* DateCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DateCollectionViewCell.swift; sourceTree = "<group>"; };
+		B3AA97450B0EA8781C547FB7 /* Pods_FBook.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FBook.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FE671F3A0A3E799E0D99ADAB /* Pods-FBook.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FBook.release.xcconfig"; path = "Target Support Files/Pods-FBook/Pods-FBook.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7AD526F025AF7EBF005491B2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				993FC73EEA3CDED1CEA1F93D /* Pods_FBook.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		282459D2518C2D4241F1B478 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B3AA97450B0EA8781C547FB7 /* Pods_FBook.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7AD526EA25AF7EBF005491B2 = {
+			isa = PBXGroup;
+			children = (
+				7AD526F525AF7EBF005491B2 /* FBook */,
+				7AD526F425AF7EBF005491B2 /* Products */,
+				9297CBB2E83A84F4AEDD193F /* Pods */,
+				282459D2518C2D4241F1B478 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		7AD526F425AF7EBF005491B2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7AD526F325AF7EBF005491B2 /* FBook.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7AD526F525AF7EBF005491B2 /* FBook */ = {
+			isa = PBXGroup;
+			children = (
+				7A1CB98025CC86AA00C796A2 /* GoogleService-Info.plist */,
+				7A3805E925B5C36000F48A8F /* FBook.entitlements */,
+				7AD526F625AF7EBF005491B2 /* AppDelegate.swift */,
+				7AD526F825AF7EBF005491B2 /* SceneDelegate.swift */,
+				7AD526FA25AF7EBF005491B2 /* ViewController.swift */,
+				7AD526FC25AF7EBF005491B2 /* Main.storyboard */,
+				7AD526FF25AF7EC2005491B2 /* Assets.xcassets */,
+				7AD5270125AF7EC2005491B2 /* LaunchScreen.storyboard */,
+				7AD5270425AF7EC2005491B2 /* Info.plist */,
+				7AD5272125AF7F39005491B2 /* CalendarViewController.swift */,
+				7AD5272425AF7F4F005491B2 /* DateCollectionViewCell.swift */,
+				7A4CAC5825CB2C8700437CFC /* LoginViewController.swift */,
+			);
+			path = FBook;
+			sourceTree = "<group>";
+		};
+		9297CBB2E83A84F4AEDD193F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2C41D80B0576EE3329F43B64 /* Pods-FBook.debug.xcconfig */,
+				FE671F3A0A3E799E0D99ADAB /* Pods-FBook.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7AD526F225AF7EBF005491B2 /* FBook */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7AD5270725AF7EC2005491B2 /* Build configuration list for PBXNativeTarget "FBook" */;
+			buildPhases = (
+				9E9E784CE29031237A658DFA /* [CP] Check Pods Manifest.lock */,
+				7AD526EF25AF7EBF005491B2 /* Sources */,
+				7AD526F025AF7EBF005491B2 /* Frameworks */,
+				7AD526F125AF7EBF005491B2 /* Resources */,
+				AA5B6DDF6F0493A57E422C85 /* [CP] Embed Pods Frameworks */,
+				6AE3258DCD6F87FEAE19CF6C /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FBook;
+			productName = FBook;
+			productReference = 7AD526F325AF7EBF005491B2 /* FBook.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7AD526EB25AF7EBF005491B2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1230;
+				LastUpgradeCheck = 1230;
+				TargetAttributes = {
+					7AD526F225AF7EBF005491B2 = {
+						CreatedOnToolsVersion = 12.3;
+					};
+				};
+			};
+			buildConfigurationList = 7AD526EE25AF7EBF005491B2 /* Build configuration list for PBXProject "FBook" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7AD526EA25AF7EBF005491B2;
+			productRefGroup = 7AD526F425AF7EBF005491B2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7AD526F225AF7EBF005491B2 /* FBook */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7AD526F125AF7EBF005491B2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7AD5270325AF7EC2005491B2 /* LaunchScreen.storyboard in Resources */,
+				7A1CB98125CC86AA00C796A2 /* GoogleService-Info.plist in Resources */,
+				7AD5270025AF7EC2005491B2 /* Assets.xcassets in Resources */,
+				7AD526FE25AF7EBF005491B2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6AE3258DCD6F87FEAE19CF6C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FBook/Pods-FBook-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FBook/Pods-FBook-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-FBook/Pods-FBook-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9E9E784CE29031237A658DFA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FBook-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AA5B6DDF6F0493A57E422C85 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FBook/Pods-FBook-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FBook/Pods-FBook-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-FBook/Pods-FBook-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7AD526EF25AF7EBF005491B2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A4CAC5925CB2C8700437CFC /* LoginViewController.swift in Sources */,
+				7AD5272225AF7F39005491B2 /* CalendarViewController.swift in Sources */,
+				7AD526FB25AF7EBF005491B2 /* ViewController.swift in Sources */,
+				7AD526F725AF7EBF005491B2 /* AppDelegate.swift in Sources */,
+				7AD526F925AF7EBF005491B2 /* SceneDelegate.swift in Sources */,
+				7AD5272525AF7F4F005491B2 /* DateCollectionViewCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		7AD526FC25AF7EBF005491B2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7AD526FD25AF7EBF005491B2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7AD5270125AF7EC2005491B2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7AD5270225AF7EC2005491B2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7AD5270525AF7EC2005491B2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7AD5270625AF7EC2005491B2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7AD5270825AF7EC2005491B2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2C41D80B0576EE3329F43B64 /* Pods-FBook.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = FBook/FBook.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QDFPF3A92Y;
+				INFOPLIST_FILE = FBook/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.qsunnx.FBook;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		7AD5270925AF7EC2005491B2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FE671F3A0A3E799E0D99ADAB /* Pods-FBook.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = FBook/FBook.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QDFPF3A92Y;
+				INFOPLIST_FILE = FBook/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.qsunnx.FBook;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7AD526EE25AF7EBF005491B2 /* Build configuration list for PBXProject "FBook" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7AD5270525AF7EC2005491B2 /* Debug */,
+				7AD5270625AF7EC2005491B2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7AD5270725AF7EC2005491B2 /* Build configuration list for PBXNativeTarget "FBook" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7AD5270825AF7EC2005491B2 /* Debug */,
+				7AD5270925AF7EC2005491B2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7AD526EB25AF7EBF005491B2 /* Project object */;
+}
